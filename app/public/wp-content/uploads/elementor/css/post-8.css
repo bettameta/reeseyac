@@ -1,0 +1,74 @@
+.elementor-kit-8{--e-global-color-primary:#6A11BE;--e-global-color-secondary:#791655;--e-global-color-text:#252425;--e-global-color-accent:#DD569B;--e-global-color-c305949:#FFFFFF;--e-global-color-3b1da11:#FFE4FF;--e-global-typography-primary-font-family:"Sansita";--e-global-typography-primary-font-size:4rem;--e-global-typography-primary-font-weight:400;--e-global-typography-secondary-font-family:"Work Sans";--e-global-typography-secondary-font-size:1rem;--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Work Sans";--e-global-typography-text-font-size:1rem;--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;--e-global-typography-2c7893d-font-family:"Work Sans";--e-global-typography-2c7893d-font-size:1.2rem;--e-global-typography-2c7893d-font-weight:700;--e-global-typography-0aa85fe-font-family:"Sansita";--e-global-typography-0aa85fe-font-size:2rem;color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );}.elementor-kit-8 a{color:var( --e-global-color-accent );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );}.elementor-kit-8 h1{color:var( --e-global-color-primary );font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-size:var( --e-global-typography-primary-font-size );font-weight:var( --e-global-typography-primary-font-weight );}.elementor-kit-8 h2{color:var( --e-global-color-primary );font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-size:var( --e-global-typography-primary-font-size );font-weight:var( --e-global-typography-primary-font-weight );}.elementor-kit-8 h3{color:var( --e-global-color-primary );font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-size:var( --e-global-typography-secondary-font-size );font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-kit-8 button,.elementor-kit-8 input[type="button"],.elementor-kit-8 input[type="submit"],.elementor-kit-8 .elementor-button{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );color:var( --e-global-color-c305949 );background-color:var( --e-global-color-accent );box-shadow:0px 4px 4px 0px rgba(105.99999999999984, 16.99999999999999, 190, 0.16);border-radius:4px 4px 4px 4px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.e-con{--container-max-width:1140px;}.elementor-widget:not(:last-child){margin-bottom:20px;}.elementor-element{--widgets-spacing:20px;}{}h1.entry-title{display:var(--page-title-display);}.elementor-kit-8 e-page-transition{background-color:#FFBC7D;}.site-header{padding-right:0px;padding-left:0px;}@media(max-width:1024px){.elementor-kit-8{font-size:var( --e-global-typography-text-font-size );}.elementor-kit-8 a{font-size:var( --e-global-typography-text-font-size );}.elementor-kit-8 h1{font-size:var( --e-global-typography-primary-font-size );}.elementor-kit-8 h2{font-size:var( --e-global-typography-primary-font-size );}.elementor-kit-8 h3{font-size:var( --e-global-typography-secondary-font-size );}.elementor-kit-8 button,.elementor-kit-8 input[type="button"],.elementor-kit-8 input[type="submit"],.elementor-kit-8 .elementor-button{font-size:var( --e-global-typography-text-font-size );}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-kit-8{font-size:var( --e-global-typography-text-font-size );}.elementor-kit-8 a{font-size:var( --e-global-typography-text-font-size );}.elementor-kit-8 h1{font-size:var( --e-global-typography-primary-font-size );}.elementor-kit-8 h2{font-size:var( --e-global-typography-primary-font-size );}.elementor-kit-8 h3{font-size:var( --e-global-typography-secondary-font-size );}.elementor-kit-8 button,.elementor-kit-8 input[type="button"],.elementor-kit-8 input[type="submit"],.elementor-kit-8 .elementor-button{font-size:var( --e-global-typography-text-font-size );}.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS *//* Disable sumbit button by hiding real button and replacing with dummy button*/
+
+.elementor-field-group elementor-column elementor-field-type-submit elementor-col-30 e-form__buttons elementor-md-60{
+    display: none;
+}
+
+/*
+Text box overlay for us page
+*/
+.cstm-text .elementor-widget-container {
+    background: white;
+    border-radius: 12px;
+}
+/*
+Main design gradient background
+*/
+
+.design-gradient {
+	background: linear-gradient(90deg, rgba(255, 207, 227, 0.54) 0%, rgba(255, 197, 228, 0.24) 47.4%, rgba(106, 17, 190, 0.16) 100%);
+}
+/*
+Main design gradient background for header
+*/
+.header-gradient {
+background: linear-gradient(96.53deg, rgba(145, 17, 190, 0.67) 0.88%, rgba(117, 17, 190, 0.72) 15.29%, rgba(106, 17, 190, 0.81) 34.16%, rgba(106, 17, 190, 0.75) 80.85%, rgba(106, 17, 190, 0.64) 96.25%);
+}
+
+.before-hamburger .elementor-menu-toggle::before {
+    content: "MENU";
+    color: #FFE4FF;
+    padding-right: 16px
+}
+
+/* add to id of icon list widget to creat custom design */
+#design-lis div ul li {
+    border-radius: 10px 10px 10px 0;
+    background-color: white;
+    padding: 0.25rem 1rem;
+    box-shadow: 0px 1px 4px #DD569B;
+    margin: 2%;
+}
+
+/* bug fix for blog post pagination */
+.pagination-fix .elementor-pagination a {
+    font-size: 2rem;
+}
+
+/* Custom design for mobile menu 
+
+@media screen and (max-width: 1024px) {
+    .custom-mobile-menu .uael-flyout-content {
+        background: linear-gradient(96.4deg, rgba(106, 17, 190, 0.16) 0.87%, rgba(255, 197, 228, 0.24) 51.74%, rgba(255, 207, 227, 0.54) 94.96%), #FFFFFF;
+    }
+     .custom-mobile-menu .uael-flyout-content nav::before {
+         content: url(http://betayourairco.kinsta.cloud/wp-content/uploads/2022/08/logo-mobile.webp)
+     }
+      .custom-mobile-menu .uael-flyout-content nav::after {
+          content: url(http://betayourairco.kinsta.cloud/wp-content/uploads/2022/08/ezgif.com-gif-maker-1.webp);
+          
+      }
+      .custom-mobile-menu-container .custom-mobile-men .uael-flyout-content nav after::after {
+          content: "24-HOUR EMERGENCY SERVICE";
+          color: #252425;
+          font-size: .8rem;
+      }
+      
+      .cstm-wrapper h2 {
+          font-size: 2rem;
+          line-height: 1.2em;
+      }
+      .cstm-wrapper p {
+          line-height: 1.2em;
+      }
+}*//* End custom CSS */
